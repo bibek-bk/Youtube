@@ -16,8 +16,8 @@ function LiveChat() {
           text: generateText(20),
         })
       );
-      return ()=> clearInterval(chat)
     }, 2000);
+    return ()=> clearInterval(chat)
   }, []);
   return (
     <div className="border-2 lg:w-[24rem]  rounded-lg bg-slate-100">
